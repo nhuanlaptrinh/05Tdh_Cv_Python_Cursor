@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tự Động Hóa Công Việc Với Python - Anh Lập Trình</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css?v=20251223_140342" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css?v=20251223_140342">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Anh Lập Trình" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="logo-text" style="display:none;">Anh Lập Trình</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Về Anh Lập Trình</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-tagline">
+                <h2>THỰC HÀNH TRƯỚC - LÝ THUYẾT SAU, VƯỚNG ĐÂU - GỠ ĐÓ</h2>
+            </div>
+            <h1 class="hero-title">Ngồi Chơi Cũng Xong Việc Khi Áp Dụng Lập Trình Vào Công Việc Hiện Tại</h1>
+            <p class="hero-subtitle">Với Phương Pháp Học Tập Khác Biệt Hoàn Toàn Với Truyền Thống - Anh em sẽ giống như con "nghiện" xuyên đêm suốt sáng gõ code vì thấy được ứng dụng hay ho của nó vào công việc (cái mà anh em chưa từng nghĩ tới)</p>
+            <p class="hero-description"><strong>Lưu ý:</strong> Anh em tay ngang có thể học và viết chương trình phục vụ công việc chỉ trong thời gian rất ngắn (trên dưới 1 tháng) dù chưa có bất kỳ một chút kiến thức gì về lập trình hay khoa học máy tính trước đó. <strong>ĐĂNG KÝ LÀ VÀO HỌC NGAY LẬP TỨC, KHÔNG CHỜ ĐỢI "BỐ CON THẰNG" NÀO CẢ</strong> (QUA VIDEO, HỖ TRỢ LIÊN TỤC QUA ZALO, ZOOM), TRANH THỦ CHIẾN MỌI THỜI GIAN LÚC ANH EM RẢNH</p>
+            <a href="#register" class="cta-button">Bắt đầu</a>
+        </div>
+    </section>
+
+    <!-- Cursor AI Highlight Section -->
+    <section class="cursor-ai-highlight">
+        <div class="container">
+            <div class="cursor-ai-banner">
+                <div class="cursor-ai-icon-wrapper">
+                    <i class="fas fa-robot"></i>
+                    <span class="cursor-ai-badge">XU THẾ MỚI</span>
+                </div>
+                <h2 class="cursor-ai-title">🚀 CURSOR AI - THAY THẾ LẬP TRÌNH VIÊN TRUNG BÌNH</h2>
+                <p class="cursor-ai-subtitle">Giờ xu thế ra con AI đó là Cursor, thay thế luôn lập trình viên trung bình đó. Nó làm cho anh em từ A–Z luôn:</p>
+                
+                <ul class="cursor-ai-list">
+                    <li>Từ cài đặt, tự kiểm tra lỗi, tự sửa, làm mọi thứ cho anh em mình luôn</li>
+                    <li>Anh em chỉ cần ra lệnh, nó làm cho anh em mọi thứ từ test, web-app, tạo tool, tạo luôn workflow n8n cho anh em sử dụng luôn</li>
+                    <li>Chỉ cần ra lệnh, uống một ly cà phê là đã hoàn thành được tool hay workflow như ý anh em muốn</li>
+                    <li>Không cần biết code, chỉ cần biết ra lệnh!</li>
+                </ul>
+                
+                <div class="cursor-ai-cta">
+                    <p class="cursor-ai-highlight-text">✨ <strong>Khóa học này sẽ hướng dẫn anh em sử dụng Cursor AI để tạo tool và workflow chỉ bằng cách ra lệnh!</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <p><strong>GIÚP ANH EM TỰ TẠO TOOL THEO CHÍNH Ý TƯỞNG CỦA BẢN THÂN ĐỂ LINH HOẠT VÀO CÔNG VIỆC TRONG 7 NGÀY</strong></p>
+                
+                <p>Công việc chuyên môn của anh em, chỉ có anh em mới hiểu rõ. Làm gì có phần mềm nào trên đời hoàn toàn đáp ứng được nhu cầu thực tế của anh em? Đó chính là lý do anh em nên tự viết chương trình phục vụ công việc của mình.</p>
+                
+                <p>Hãy tưởng tượng mọi tác vụ thủ công trong công việc đều có thể được tự động hóa bằng chính ý tưởng của anh em. Khi đó, chỉ cần một cú nhấn nút, mọi thứ hoàn thành trước sự ngưỡng mộ của đồng nghiệp và sếp.</p>
+                
+                <div class="example-box">
+                    <p><strong>Lợi ích khi tự động hóa công việc với Python:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 15px;">
+                        <li>Không chỉ tối ưu công việc, anh em còn có thêm một nghề tay trái—viết phần mềm ứng dụng cho lĩnh vực của mình, tạo ra thu nhập gấp 3, thậm chí gấp 4 lần trước đây!</li>
+                        <li>Dành ít thời gian hơn cho những công việc nhàm chán lặp đi lặp lại, từ đó công việc đỡ mệt mỏi, nhàm chán hơn.</li>
+                        <li>Thu nhập tăng không phanh (lương tăng, nhiều nguồn thu nhập ngoài giờ)</li>
+                        <li>Được tự do lang thang làm việc tại các quán cà phê thay vì công ty, không phải bận tâm chuyện sáng 8h đi chiều 5h về, sếp hay môi trường làm việc căng thẳng (vì chỉ cần máy tính hoặc laptop là có thể làm việc bất kỳ nơi nào, ở đâu)</li>
+                        <li>Giúp việc thu thập và xử lý dữ liệu dễ như ăn cháo</li>
+                        <li>Tăng năng suất của bạn bằng cách sử dụng thời gian bạn đã dành để đánh máy, điểu khiển chuột để làm điều gì đó có giá trị hơn.</li>
+                        <li>Sếp, đồng nghiệp trầm trồ ngưỡng mộ xem bạn như một idol lập trình.</li>
+                        <li>Tiết kiệm thời gian của bạn để tập trung vào những việc quan trọng, thú vị hơn.</li>
+                        <li>Trở thành người quan trọng không thể thiếu trong công ty vì nếu bạn off thì các tool đã viết sẽ dần trở nên vô dụng</li>
+                        <li>Dễ dàng khởi nghiệp với vốn ban đầu chỉ là laptop và thời gian của bạn</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h3>Làm việc mà cứ phải làm đi làm lại những công việc lặp đi lặp lại, rồi lâu lâu lại phải ngồi làm thủ công cả ngày thì muôn đời không hiệu quả nhé, sống không yên thân bạn nhé</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content Section -->
+    <section class="course-content">
+        <div class="container">
+            <h2 class="section-title">Lợi Ích Khoá Học Đã Mang Tới Cho Hàng Trăm Học Viên (Có Minh Chứng)</h2>
+            
+            <div class="content-section">
+                <h3>Bạn Sẽ Học Cái Gì?</h3>
+                <ul class="techniques-list">
+                    <li>Kiến thức căn bản về python với phương pháp học tập "thực hành trước - lý thuyết sau, vướng đâu gỡ đó" dành cho tay ngang</li>
+                    <li>Tự động hoá bất kỳ tác vụ nào trên Excel, Pdf, word, website</li>
+                    <li>Lấy và tổng hợp dữ liệu website bất kỳ (shoppe, zalo, facebook, tiki, hoadondientu, bocaodientu...)</li>
+                    <li>Viết chương trình gửi email tự động (gởi email tới nhiều người có file đính kèm, lên lịch gởi email...)</li>
+                    <li>Sử dụng các công cụ để nhanh chóng tìm ra lỗi trong code python (Cursor AI, Google, Vscode...)</li>
+                    <li>Tự động hoá điều khiển chuột và bàn phím để gõ hay nhập thông tin</li>
+                    <li>Tự động hóa hoàn toàn các tác vụ trên máy tính với python</li>
+                    <li>Dễ dàng viết chương trình nhận dạng và tìm kiếm văn bản với "regular expressions".</li>
+                    <li>Có nhiều bí quyết về học lập trình sẽ được tiết lộ trong khóa học khiến bạn phải "tỉnh ngủ" vì quá tuyệt vời.</li>
+                    <li>Học sử dụng Cursor AI để học lập trình và tăng hiệu quả làm việc lên gấp 3 hay 4 lần.</li>
+                </ul>
+                <p class="note-text"><strong>Tóm lại là chương trình giúp anh em điều khiển bất kỳ phần mềm nào trên máy tính với kiến thức python bắt đầu từ zero, giúp công việc đỡ mệt mỏi, nhàm chán hơn</strong></p>
+            </div>
+            
+            <div class="content-section" style="margin-top: 30px;">
+                <h3>Dành Cho Ai?</h3>
+                <ul class="techniques-list">
+                    <li>Dân văn phòng muốn thoát khỏi những công việc nhàm chán bằng cách tự động hóa với Python</li>
+                    <li>Người đang tìm kiếm cơ hội kiếm thêm thu nhập ngoài giờ chỉ với chiếc laptop của mình. <em>Anh em học để ứng dụng vào công việc hiện tại, ví dụ lập trình cho kế toán chẳng hạn, rồi ai ai cũng biết tới anh em là chuyên gia tự động hóa trong kế toán, anh em nhận dự án outsourcing hay viết phần mềm thương mại, anh em cũng có thể dễ dàng khởi nghiệp với vốn đầu tư 0 đồng vì lĩnh vực này chỉ cần máy tính hoặc laptop thôi.</em></li>
+                    <li>Người muốn nâng cao trình độ tiếng Anh thông qua học lập trình.</li>
+                    <li>Người muốn có công việc xuyên biên giới, quốc gia hay thậm chí chuyển nghề sang lĩnh vực lập trình.</li>
+                    <li>Đã từng học Python nhưng bỏ cuộc vì phương pháp giảng dạy rườm rà nhàm chán và không biết ứng dụng vào thực tế</li>
+                </ul>
+                
+                <div class="highlight-box" style="margin-top: 25px; padding: 20px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; border-radius: 8px;">
+                    <p style="margin: 0; font-size: 17px; line-height: 1.8; color: #1976d2;"><strong>💡 Vậy làm thế nào để anh em học nhanh và hiệu quả?</strong> Câu trả lời nằm ở phương pháp học của tui: <strong>Thực hành trước - Lý thuyết sau - Vướng đâu, gỡ đó!</strong></p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h3 style="color: #00786a; margin-bottom: 20px;">Nội Dung Khóa Học - Học Theo Phương Châm "Thấy Sướng Mới Học Tiếp"</h3>
+                
+                <div class="highlight-box" style="margin: 25px 0; padding: 25px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; border-radius: 10px;">
+                    <h4 style="color: #1976d2; margin-bottom: 15px;">📱 Phần 1: Dùng Cursor AI Để Tạo App Nhanh Như Chớp</h4>
+                    <p style="font-size: 17px; line-height: 1.8; color: #333;">Tui sẽ dạy các bạn cách dùng Cursor để tạo web app cũng như tạo tool <strong>chỉ bằng cách ra lệnh</strong>. Không cần biết code, chỉ cần nói cho Cursor biết bạn muốn gì, nó sẽ làm hết cho bạn. Mục đích là để bạn tạo được các ứng dụng nhanh nhất, <strong>thấy sướng mới học tiếp</strong>.</p>
+                    <p style="font-size: 16px; line-height: 1.8; color: #555; margin-top: 15px; font-style: italic;">
+                        <i class="fas fa-magic" style="color: #667eea;"></i> Ví dụ: Bạn muốn tạo app quản lý khách hàng? Chỉ cần nói với Cursor: "Tạo cho tôi app quản lý khách hàng với Excel", rồi ngồi xem nó làm thôi. Xong xuôi bạn chỉ cần chỉnh sửa vài chi tiết là dùng được ngay!
+                    </p>
+                </div>
+                
+                <div class="highlight-box" style="margin: 25px 0; padding: 25px; background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); border-left: 5px solid #28a745; border-radius: 10px;">
+                    <h4 style="color: #155724; margin-bottom: 15px;">🐍 Phần 2: Đi Sâu Vào Python Khi Đã Quen</h4>
+                    <p style="font-size: 17px; line-height: 1.8; color: #333;">Khi bạn đã quen dùng Cursor AI cũng như biết cách sử dụng rồi, lúc đó bạn sẽ muốn hiểu sâu hơn về Python để tự mình có thể chỉnh sửa, tối ưu code. Tui sẽ hướng dẫn bạn học Python một cách dễ dàng để có thể ứng dụng tạo các app chuyên sâu hơn, phức tạp hơn.</p>
+                    <p style="font-size: 16px; line-height: 1.8; color: #555; margin-top: 15px; font-style: italic;">
+                        <i class="fas fa-lightbulb" style="color: #28a745;"></i> Lúc này bạn đã biết app hoạt động thế nào, chỉ cần học Python để hiểu cách nó chạy. Học Python lúc này dễ như ăn kẹo vì bạn đã có kinh nghiệm thực tế rồi!
+                    </p>
+                </div>
+                
+                <div class="warning-box" style="margin-top: 30px; padding: 20px; background: #fff3cd; border-left: 5px solid #ffc107; border-radius: 8px;">
+                    <p style="margin: 0; font-size: 17px; line-height: 1.8; color: #856404;"><strong>⚡ Điểm khác biệt:</strong> Thầy khác dạy Python trước, anh em học xong không biết làm gì → Chán → Bỏ cuộc. Còn tui dạy Cursor AI trước để anh em tạo được app ngay → Sướng → Muốn học Python để hiểu sâu hơn. <em>Đơn giản vậy thôi!</em></p>
+                </div>
+            </div>
+
+            <div class="requirement-box">
+                <p><strong>Để tham gia chương trình này anh em không cần kiến thức lập trình trước đó nhé</strong> (tui sẽ hướng dẫn từ đầu, từ cách cài đặt Cursor AI, Python đến cách ra lệnh tạo app đầu tiên...)</p>
+                <p style="margin-top: 15px;"><em>Chỉ cần anh em có máy tính (hoặc laptop), biết đọc biết viết, có thái độ chịu học là được rồi. Còn lại để tui lo!</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Security Section -->
+    <section class="platform-security">
+        <div class="container">
+            <div class="content-section">
+                <h2 class="section-title">🔐 Những Công Cụ Và Nền Tảng Bạn Sẽ Sử Dụng?</h2>
+                
+                <p>Đừng lo, anh em sẽ dùng những công cụ xịn nhất hiện nay mà lại dễ sử dụng:</p>
+                
+                <ul class="automation-features" style="list-style: none; padding-left: 0; margin-top: 25px;">
+                    <li style="margin-bottom: 25px; padding-left: 40px; position: relative;">
+                        <i class="fas fa-robot" style="position: absolute; left: 0; color: #667eea; top: 3px; font-size: 24px;"></i>
+                        <strong style="font-size: 19px; color: #00786a;">Cursor - Cursor AI:</strong> Giờ xu thế ra con AI đó là Cursor, thay thế luôn lập trình viên trung bình đó. Nó làm cho anh em từ A–Z luôn, từ cài đặt, tự kiểm tra lỗi, tự sửa, làm mọi thứ cho anh em mình luôn. Anh em chỉ cần ra lệnh, nó làm cho anh em mọi thứ từ test, web-app, tạo tool, tạo luôn workflow n8n cho anh em sử dụng luôn. Chỉ cần ra lệnh, uống một ly cà phê là đã hoàn thành được tool hay workflow như ý anh em muốn. <em style="color: #e74c3c;">(Đây chính là bí quyết giúp tôi tăng hiệu quả công việc gấp 5-10 lần)</em>
+                    </li>
+                    
+                    <li style="margin-bottom: 25px; padding-left: 40px; position: relative;">
+                        <i class="fab fa-python" style="position: absolute; left: 0; color: #3498db; top: 3px; font-size: 24px;"></i>
+                        <strong style="font-size: 19px; color: #00786a;">Python:</strong> Ngôn ngữ lập trình đơn giản, dễ học, dễ lập trình dành cho anh em tay ngang. Có thể ứng dụng ngay lập tức vào công việc. Python là ngôn ngữ mà bất kỳ ai cũng có thể học được, không cần phải là thiên tài hay giỏi toán. <em>(Tôi học Python lúc 30 tuổi mà vẫn thành công, anh em còn trẻ hơn thì càng dễ)</em>
+                    </li>
+                </ul>
+                
+                <div class="highlight-box" style="margin-top: 35px; padding: 25px; background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%); border-left: 5px solid #ffc107; border-radius: 10px;">
+                    <p style="font-size: 18px; line-height: 1.8; margin: 0; color: #856404;"><strong>💡 Tóm lại:</strong> Cursor AI + Python = Combo hoàn hảo cho dân tay ngang. Bạn chỉ cần ra lệnh cho AI, nó sẽ giúp bạn viết code. Sau đó học Python để hiểu sâu hơn và tự chỉnh sửa theo ý mình. Đơn giản vậy thôi!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Method Section -->
+    <section class="learning-method">
+        <div class="container">
+            <h2 class="section-title">Cách Thức Học Tập Hoàn Toàn Khác Biệt</h2>
+            <h3 class="sub-title">Cứ ứng dụng vào công việc đi, vướng thì gỡ</h3>
+            
+            <div class="content-section" style="margin-bottom: 30px;">
+                <h3 style="color: #00786a; margin-bottom: 20px;">Anh Em Chỉ Cần Máy Tính Hoặc Laptop Và Một Thái Độ Chịu Học, Mọi Thứ Chúng Mình Lo</h3>
+                <ul class="techniques-list">
+                    <li>Có máy tính hoặc laptop (cấu hình chỉ cần cài được excel là đủ)</li>
+                    <li>Không yêu cầu kiến thức về lập trình (người chưa biết gì về lập trình)</li>
+                </ul>
+            </div>
+            
+            <div class="method-steps">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Đầu tiên anh em học qua video trước</h4>
+                        <p>Giúp anh em rảnh giờ nào cày giờ đó với những kỹ thuật mình hướng dẫn. Anh em chúng ta hầu hết đều là người đi làm bận rộn, dân tay ngang (những người chưa có kiến thức về công nghệ thông tin), nên cách học trực tiếp không còn phù hợp nữa vì học như vậy rất lan man, học xong cũng không biết ứng dụng để làm cái gì.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Tiếp theo ứng dụng ngay vào công việc của chính bản thân</h4>
+                        <p>Học theo phương châm "Cứ ứng dụng vào công việc, vướng thì gỡ". Anh em sẽ áp dụng ngay những gì học được để tạo chương trình theo ý tưởng của chính mình muốn viết để tự động hóa công việc, vướng đâu gỡ đó (hướng dẫn anh em qua zalo, video và zoom, ultraview) miễn sao hoàn thành được chương trình chính anh em muốn. Trong khóa học sẽ hướng dẫn ae các kiến thức cơ bản về python cũng như kỹ năng tự học để anh có thể áp dụng ngay lập tức vào làm dự án của chính mình, vướng đâu gỡ đó, bên mình hỗ trợ anh em liên tục qua zalo và zoom, nên học rất nhanh (đã chứng minh với hàng ngàn học viên trong 3 năm qua).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="warning-note">
+                <p><em>Lưu ý: không phải anh em nào cũng phù hợp với cách học này vì giai đoạn đầu học tập khá vật vã, đơn giản là bạn chưa quen với lập trình thôi. Rất nhiều người ứng dụng rất hiệu quả vào công việc nhưng cũng có người đứt gánh giữa đường, nên nếu anh em không học được thì cũng đừng "phốt" tui lùa gà.</em></p>
+                <p><strong>Khóa học vừa học vừa update để phù hợp với anh em chúng ta nên nội dung bài giảng sẽ thay đổi liên tục</strong></p>
+            </div>
+            
+            <div class="highlight-box" style="margin-top: 35px; padding: 25px; background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); border-left: 5px solid #28a745; border-radius: 10px;">
+                <h3 style="color: #155724; margin-bottom: 15px;">✅ VẬY NÊN KHI HOÀN TẤT ĐĂNG KÝ LÀ ANH EM SẼ VÀO HỌC NGAY LẬP TỨC, KHÔNG CHỜ ĐỢI</h3>
+                <p style="font-size: 17px; line-height: 1.8; color: #333; margin: 0;">Chỉ cần một thời gian ngắn là anh em đã viết được ứng dụng vào công việc rồi, anh em sẽ nghiền lập trình như chơi game vậy, vì thấy được ứng dụng hay ho của lập trình vào công việc hiện tại.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Thông Tin Giảng Viên Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">Thông Tin Về Giảng Viên</h2>
+                
+                <div class="content-section">
+                    <p>Tôi khác với các thầy cô ở ngoài kia, Những người giỏi từ trứng (Học giỏi, tiến sĩ, du học nước ngoài, tóm lại là làm cái gì cũng giỏi). 30 tuổi tôi vẫn chỉ là một nhân viên văn phòng bình thường, thu nhập bằng hoặc hơn các bạn sinh viên mới tốt nghiệp vài trăm ngàn. Cũng có trường hợp thấp hơn. Tôi nhận được ánh mắt soi mói của các đồng nghiệp khi mà 30 tuổi vẫn ứng tuyển vào vị trí nhân viên quèn: "ông này chắc có vấn đề về năng lực", Điều này cũng chính là động lực giúp tôi bước chân với lập trình với mong muốn đột phá công việc, đầu tiên là muốn nhận được sự tôn trong từ các đồng nghiệp, sếp, tiếp theo là nâng cao thu nhập của bản thân.</p>
+                    
+                    <p><strong>Vì Vậy nếu bạn muốn tìm một người hướng dẫn trong quá khứ có thành tích nổi bật thì có lẽ tôi không phải là người phù hợp để các bạn chọn.</strong></p>
+                    
+                    <p><em>Nhưng bạn có nghĩ những người giỏi như vậy có hiểu và biết được bạn như thế nào để hướng dẫn không?</em></p>
+                    
+                    <div class="highlight-box" style="margin: 30px 0; padding: 25px; background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%); border-left: 5px solid #ffc107; border-radius: 10px;">
+                        <h3 style="color: #856404; margin-bottom: 15px;">Người Giỏi Họ Chơi Với Người Giỏi, Còn Tôi Dở Tôi Hướng Dẫn Các Bạn</h3>
+                        <p style="font-size: 17px; line-height: 1.8; color: #856404; margin: 0;">Những Người Chưa Biết Gì Về Lập Trình, Vì Tôi Hiểu Các Bạn Cần Hướng Dẫn Như Thế Nào Để Học Nhanh Và Ứng Dụng Vào Công Việc...</p>
+                    </div>
+                    
+                    <p>Hãy tưởng tượng tôi sẽ hướng dẫn bạn học lập trình giống y như dạy lái xe cho bạn vậy. Tôi sẽ cho bạn chạy bon bon trên đường, học cái dễ trước để người học cảm thấy sướng đã, họ thấy mình không vô dụng. Sau đó học vào số và những cái thiên về lý thuyết sau.</p>
+                    
+                    <p>Trong cuộc sống hàng ngày lắm thầy, lắm tấm gương để bạn học theo, đối với các thầy thì nói cái gì cũng thấy hay, đặc biệt là các thầy dạy làm giàu, nghe mà sướng tai quá, nhiều lúc họ trở thành idol của bạn lúc nào không hay, họ nói cái gì bạn nghe cũng thấy hợp lý và bạn cố gắng bắt chước theo, nhưng không hiểu sao bản thân không đạt được kết quả, rồi bạn lại sẽ tìm một idol khác để bạn học, và đó lại là một hành trình dài thật dài.</p>
+                    
+                    <p>Cũng có thể bạn đã quen với cách học được mặc định là "đúng" như xã hội vẫn học, học lý thuyết xong mới thực hành, từ cơ bản rồi mới nâng cao, phải học bò rồi mới học đứng, bạn vô tình phải học tập và làm việc theo cách đó, dù nó hoàn toàn không phù hợp với bạn, làm cho bạn không thể đột phá về công việc cũng như học tập.</p>
+                    
+                    <p>Tôi không hề phản đối với cách học đại trà hiện nay, có thể phù hợp với nhiều người, nhưng với bạn thì không, bạn có thể học cái hay từ các thầy, nhưng không nên quá cố gắng để học theo phương pháp đó, bạn cũng có thể thay đổi để phù hợp với chính bản thân của mình.</p>
+                    
+                    <p>Công nghệ phát triển thần tốc, cách học đại trà chung chung hiện nay, trước sau gì chả lỗi thời, không trước thì sau mà thôi, các trường đại học sẽ trở nên lỗi thời nếu không thay đổi và bạn cũng vậy, vấn đề chỉ là thời gian nếu không tìm được cách học phù hợp với bạn hiện nay.</p>
+                    
+                    <div class="highlight-box" style="margin-top: 30px; padding: 25px; background: linear-gradient(135deg, rgb(225, 247, 250) 0%, white 100%); border-left: 5px solid #00786a; border-radius: 10px;">
+                        <h3 style="color: #00786a; margin-bottom: 15px;">Cách Học Của Bạn Không Cần Giống Ai Cả, Hãy Là Chính Mình, Miễn Sao Nó Hiệu Quả</h3>
+                        <p style="font-size: 17px; line-height: 1.8; color: #333; margin: 0;">Có thể bạn phải tốn hàng triệu tới vài chục triệu để học lập trình tại các trung tâm hay mất cả vài tháng mới có thể áp dụng vào công việc nhưng với những kiến thức cũng như kỹ năng tôi hướng dẫn, bạn chỉ cần một thời gian rất ngắn dưới 1 tháng đi kèm với <strong>học phí chỉ bằng nửa bữa nhậu thôi</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tại Sao Chọn Python Section -->
+    <section class="course-content">
+        <div class="container">
+            <h2 class="section-title">Tại Sao Nên Chọn Python Mà Không Phải Là Một Ngôn Ngữ Lập Trình Khác</h2>
+            
+            <div class="content-section">
+                <p>Python là một ngôn ngữ lập trình dành cho tất cả mọi người (đơn giản, dễ học, ai cũng có thể học và viết được chương trình theo chính ý tưởng của mình chỉ sau vài ngày dù chưa có kiến thức về lập trình hay khóa học máy tính trước đó).</p>
+                
+                <ul class="techniques-list" style="margin-top: 20px;">
+                    <li>Có hàng ngàn cuốn sách, kênh youtube, blog có sẵn trực tuyến để giúp bạn bắt đầu với Python. Tin tốt là bạn có thể học Python một cách nhanh chóng và nó rất dễ hiểu.</li>
+                    <li>Nếu bạn chưa quen với lập trình, Python sẽ giúp người mới bắt đầu dễ dàng nắm bắt những kiến thức cơ bản. Khi bạn đã có các kỹ năng cơ bản, bạn sẽ thấy rằng Python là một cách hiệu quả để viết code.</li>
+                    <li>Bạn có thể tạo các tập lệnh đơn giản trong vài giờ mà có thể mất vài tuần bằng các ngôn ngữ khác. Python có thể được sử dụng để tự động hóa các tác vụ lặp đi lặp lại trong công việc của bạn hoặc xây dựng các dự án phức tạp.</li>
+                    <li>Trên thực tế, nó có thể được sử dụng trong hầu hết mọi tình huống cần lập trình. Ngoài tất cả những lợi ích này, còn có một số đặc điểm độc đáo của Python khiến nó trở nên lý tưởng để có thể tự động hoá các phần mềm mà bạn đang sử dụng hiện nay. Vì hầu hết các phần mềm đều có thể tự động hoá với python.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 4 Quan Điểm Sai Lầm Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">4 Quan Điểm Về Các Lập Trình Viên Bạn Cần Ngừng Lại Ngay Lập Tức</h2>
+                
+                <ul class="techniques-list">
+                    <li>Phải giỏi tiếng anh.</li>
+                    <li>Phải giỏi toán.</li>
+                    <li>Cần phải có khả năng tư duy.</li>
+                    <li>Lớn tuổi rồi khó học lập trình.</li>
+                </ul>
+                
+                <div class="content-section" style="margin-top: 30px;">
+                    <p><strong>Tôi Nhuần GV khóa học này.</strong> Trước khi trở thành lập trình viên tôi là dân kỹ thuật (Cơ khí xây dựng) tôi <strong>KHÔNG HỀ GIỎI TIẾNG ANH</strong> (Gần như là mù), cũng <strong>KHÔNG GIỎI TOÁN</strong> (Mỗi môn toán tôi đều phải học lại vài lần) nhưng tôi vẫn có thể TRỞ THÀNH LẬP TRÌNH VIÊN được.</p>
+                    
+                    <p>Đúng vậy, tiếng anh rất quan trọng nhưng bạn có thể học song song với lập trình. Có nghĩa là trong quá trình chúng ta viết chương trình, bạn có thể phải đọc rất nhiều tài liệu tiếng anh hoặc tham khảo cộng động trong và ngoài nước để nhận sự trợ giúp từ họ. Vì vậy, nếu biết tiếng anh là một lợi thế, còn không biết thì cũng không sao, bạn có thể nhờ sự trợ giúp từ google dịch, rồi các bạn đọc nhiều bạn sẽ quen với những thuật ngũ trong lập trình và lên level tiếng anh mà thôi. Lưu ý rằng học lập trình cũng là một cách để chúng ta học tiếng anh.</p>
+                    
+                    <h3 style="color: #00786a; margin-top: 30px; margin-bottom: 20px;">"Lớn Tuổi Rồi Khó Học Lập Trình?"</h3>
+                    
+                    <p>Ngoài 30 tuổi, tôi mới bắt đầu học lập trình, và tôi học rất nhanh, đơn giản là có áp lực để cày (Tôi muốn khẳng định bản thân) và tôi đã có kinh nghiệm trong lĩnh vực hiện tại nên khi bắt đầu học lập trình tôi luôn có mục đích hay ý tưởng để viết chương trình. Tôi vừa học vừa viết chương trình nên tôi học rất nhanh vì thấy được ngay ứng dụng của nó ngay lập tức. Điều này làm tôi càng học càng sung, quên mất thời gian.</p>
+                    
+                    <div class="highlight-box" style="margin-top: 25px; padding: 20px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left: 5px solid #2196f3; border-radius: 8px;">
+                        <h3 style="color: #1976d2; margin-bottom: 15px;">Càng Lớn Tuổi Càng Dễ Học Lập Trình Vì...</h3>
+                        <p style="margin: 0; font-size: 17px; line-height: 1.8; color: #333;">Có nhiều ý tưởng để viết chương trình tự động hóa công việc (từ đơn giản đến phức tạp), vì vậy càng học càng nghiền giống như là anh em chơi game vậy. Anh em sẽ được trải nghiệm cảm giác thức xuyên đêm suốt sáng mà không thấy mệt mỏi là như thế nào.</p>
+                    </div>
+                    
+                    <p style="margin-top: 25px;"><strong>Anh Em Trên Dưới 40 Tuổi Biết Rõ Bản Thân Học Để Làm Gì, Kết Hợp Với Phương Pháp Học Tập Không Lan Man "Trên Trời Dưới Biển" Nên Học Rất Nhanh Và Hiệu Quả</strong></p>
+                    
+                    <p>Anh em đã đi làm nhưng cách thức học tập hiện tại như thời học sinh, sinh viên thì anh em nên xem lại, vì với cách học đó sẽ làm bạn sớm bỏ cuộc, mất thời gian mà chả được cái quái gì (dĩ nhiên vẫn có các siêu nhân ngoài kia, học đâu hiểu đó nhưng không phải là bạn).</p>
+                    
+                    <p><strong>Chắc chắn rằng! cách thức học tập mới này sẽ giúp anh em học hiệu quả gấp 3, 4 đó là: THỰC HÀNH TRƯỚC, LÝ THUYẾT SAU - VƯỚNG ĐÂU, GỠ ĐÓ</strong></p>
+                    
+                    <p><em>Thời đại công nghệ, đừng chờ đợi "thằng" nào hướng dẫn hay dạy bạn, hãy dùng các kỹ năng "tự bơi" trong khóa học để phát triển</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Thêm Điểm Khác Biệt Section -->
+    <section class="course-content">
+        <div class="container">
+            <h2 class="section-title">Thêm Điểm Khác Biệt Khiến Chương Trình Trở Nên Hiệu Quả</h2>
+            
+            <div class="content-section">
+                <ul class="techniques-list">
+                    <li><strong>Tự động hóa các tác vụ nhàm chán</strong> trên máy tính hay phần mềm sử dụng python kết hợp Cursor AI</li>
+                    <li><strong>Hướng dẫn kỹ năng tự học, tự tìm câu trả lời</strong> hay học một kiến thức mới trong lập trình hoàn toàn không phục thuộc vào giảng viên, để bạn có thể linh hoạt giải quyết bất kỳ dự án nào trong công việc.</li>
+                    <li><strong>GV có thể hướng dẫn bạn tự động hoá bất kỳ phần mềm nào</strong> vào công việc. Vì cũng là tay ngang, GV đảm nhận nhiều công việc khác nhau trước đó, có kinh nghiệm hướng dẫn hơn 6000 học viên, giúp họ tăng hiệu quả công việc lên gấp nhiều lần.</li>
+                    <li><strong>Hướng dẫn học tập là chìa khóa tốt hơn dạy</strong>, không lan man lý thuyết, đi thẳng vấn đề với phương pháp "Thực hành trước, lý thuyết sau - vướng đâu, gỡ đó".</li>
+                </ul>
+                
+                <div class="highlight-box" style="margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); border-left: 5px solid #28a745; border-radius: 10px;">
+                    <h3 style="color: #155724; margin-bottom: 15px;">Bạn có thể tin điều đó vì:</h3>
+                    <ul style="margin: 0; padding-left: 20px;">
+                        <li style="margin-bottom: 10px; font-size: 17px; line-height: 1.8; color: #333;">Chỉ với gần 3 năm tôi đã có hơn 6000 học viên theo học, các học viên chỉ cần trên dưới tháng (thậm chí là 1 tuần nếu tập trung) là đã viết được chương trình phục vụ công việc của chính họ rồi.</li>
+                        <li style="margin-bottom: 10px; font-size: 17px; line-height: 1.8; color: #333;">Phương pháp học tập mới sẽ là một trải nghiệm thú vị, bạn có thể bị nghiền như chơi game tiêu khiển.</li>
+                        <li style="margin-bottom: 10px; font-size: 17px; line-height: 1.8; color: #333;">Tôi là dân tay ngang (kẻ ngoại đạo), tôi cũng như các bạn, tôi hiểu các bạn cần học thế nào?</li>
+                        <li style="margin-bottom: 10px; font-size: 17px; line-height: 1.8; color: #333;">Hướng dẫn sử dụng công cụ để học lập trình như Cursor AI, google... để áp dụng ngay lập tức vào công việc</li>
+                        <li style="margin-bottom: 0; font-size: 17px; line-height: 1.8; color: #333;">Nguồn thu nhập chính của tôi không đến từ giảng dạy mà đến từ một công việc khác liên quan đến lập trình phần mềm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Câu Chuyện Học Viên Section -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 30px;">Câu Chuyện Của Các Học Viên</h2>
+                
+                <div class="content-section">
+                    <h3 style="color: #00786a; margin-bottom: 20px;">📖 Câu Chuyện Của Anh Hùng - Bán Hàng</h3>
+                    <p>Tôi từng tin rằng học lập trình khó lắm, chỉ dành cho các siêu nhân, còn tôi thì dở vậy sao mà học nổi, tôi học hay đi làm vẫn mãi có cuộc sống tèn tèn không có gì nổi bật, kiểu như làm qua ngày vậy đó và rồi thông qua một người bạn tôi biết đến python, đó là là một ngôn ngữ lập trình dành cho tất cả mọi người (đơn giản, dễ học, ai cũng có thể học và viết được chương trình theo chính ý tưởng của mình chỉ sau vài ngày dù chưa có kiến thức về lập trình hay khóa học máy tính trước đó). Tôi quyết định thử sức với nó để tự tạo cho mình một chương trình có thể ứng dụng vào cv hiện tại, tôi cũng tập tành học và sớm bỏ cuộc.</p>
+                    
+                    <p>Thật nhàm chán khi mới đầu học, tôi thậm chí còn không biết học kiến thức đó để làm gì luôn, học lan man trên trời dưới biển và rồi tôi biết đến phương pháp học tập tại PYAN "thực hành trước, lý thuyết sau - vướng đâu, gỡ đó", phương pháp học tập này nói không với lý thuyết, tôi sẽ được ứng dụng ngay lập tức kiến thức vào công việc hiện tại, khiến bản thân tôi thấy sướng và hào hứng hơn, Tôi làm các ứng dụng đơn giản gần gũi nhất rồi tới ứng dụng phức tạp, kiến thức lập trình cũng từ đó nâng cao.</p>
+                    
+                    <p><strong>Điều này đã giúp tôi tạo được điểm nhấn trong công việc.</strong> Sếp, đồng nghiệp trầm trồ ngưỡng mộ với khả năng lập trình của tôi, nhờ kiến thức lập trình, tôi có được chỗ đứng tại công ty và nhận thêm job lập trình để tăng thu nhập, việc mà tự tạo cho bản thân một chương trình theo ý tưởng của chính mình thật là một điều tuyệt vời.</p>
+                </div>
+                
+                <div class="content-section" style="margin-top: 40px;">
+                    <h3 style="color: #00786a; margin-bottom: 20px;">📖 Câu Chuyện Của Anh Vân - Nhân Sự</h3>
+                    <p>Tôi đang làm trưởng phòng nhân sự của một công ty về xây dựng, hàng ngày tôi phải xử lý rất nhiều công việc khác nhau từ excel, word, cho tới website, làm tôi phát khùng vì nó, sau đó tôi bắt đầu tìm kiếm giải pháp để giảm bớt khối lượng công việc hiện tại, tôi đã tìm kiếm các phần mềm có sẵn để ứng dụng vào công việc</p>
+                    
+                    <p><strong>Nhưng bạn biết không?</strong></p>
+                    
+                    <p>Gần như chẳng phần mềm nào đáp ứng được linh hoạt công việc của tôi cả, tôi sử dụng một thời gian rồi thấy không hiệu quả và lại tiếp tục hành trình đi tìm phần mềm khác thay thế và rồi mới ngày nọ tôi quen biết Nhuần (gv - khóa học) đã tư vấn tôi rằng tại sao lại không tự viết phần mềm theo chính ý tưởng của tôi để phục vụ công việc vì chỉ có tôi mới hiểu công việc hiện tại của chính mình mà thôi, anh ấy hướng dẫn tôi kiến thức python để tự tạo chương trình phục vụ công việc.</p>
+                    
+                    <p><em>Nếu bạn chưa hiểu python có thể làm gì thì bạn hãy hình dung lập trình nó giống như là tôi thuê một bạn nhân viên sau đó dành thời gian để training cho bạn nhân viên đó phải làm thế nào với công việc hiện tại, rồi bạn nhân viên đó sẽ làm thay tôi, nhưng thay vì thuê nhân viên tôi sẽ dùng ngôn ngữ lập trình để tạo ra chương trình làm các công việc cho tôi, từ việc đăng nhập website, xử lý dữ liệu excel hay gửi bảng lương.... chỉ cần mở chương trình lên, nhấn nút là chương trình sẽ làm thay cho bạn.</em></p>
+                </div>
+                
+                <div class="content-section" style="margin-top: 40px;">
+                    <h3 style="color: #00786a; margin-bottom: 20px;">📖 Câu Chuyện Của Anh Trung - Kỹ Thuật</h3>
+                    <p>Cuộc sống thật khó khăn, tôi mong mỏi có thể kiếm được một công việc nào đó vừa tăng thu nhập lại cho bản thân lại có thể giúp ích được công việc hiện tại của tôi, thế là tôi tìm đến lập trình python.</p>
+                    
+                    <p>Rất nhiều người ngăn tôi, họ cho rằng tôi đã lớn tuổi rồi, khả năng ngoại ngữ cũng có hạn, đừng có học làm chi cho tốn thời gian, nhưng tôi vẫn quyết tâm học, mặc kệ những gì họ nói, vì muốn đột phá công việc chỉ có con đường này thôi.</p>
+                    
+                    <p>Tôi lao vào học lập trình, mới đầu tôi tham gia nhiều khóa học khác nhau về python nhưng mà học xong, tôi cũng không biết ứng dụng vào công việc thế nào cả vì quá lan man lý thuyết, cũng không đủ kiên nhẫn để học lần lượt bài giảng, nhàm chán vô cùng, và thế là tôi đã tìm đến PYAN với cách thức học tập hoàn toàn khác biệt truyền thống "thực hành trước, lý thuyết sau - vướng đâu, gỡ đó", với cách thức học tập này tôi có thể ứng dụng vào công việc của tôi ngay và luôn và thế là tôi phải thốt lên rằng "aha" đã tìm được cách học đúng phù hợp với bản thân tôi.</p>
+                    
+                    <p>Vì là người có nhiều năm kinh nghiệm trong công việc hiện tại, nên tôi có nhiều ý tưởng để có thể viết các chương trình phục vụ công việc, mới đầu tôi tạo ra các chương trình để phục vụ công việc rồi sau đó gửi tới đồng nghiệp, sếp cùng sử dụng, khi sử dụng họ tích cực phản hồi để tôi cải thiện chương trình và thế là tinh thần học lập trình của tôi ngày càng xung.</p>
+                    
+                    <p>Dĩ nhiên mới đầu học tôi chỉ có thể làm những chương trình đơn giản trong công việc thôi, sau đó phát triển dần lên, rồi sếp biết đến khả năng của tôi, gọi riêng tôi và quyết định thăng chức, tăng lương cho tôi kiểu như sợ tôi nghỉ việc vậy.</p>
+                    
+                    <p><strong>Rồi tôi bắt đầu bén duyên với lập trình</strong>, tôi nhận các dự án outsourcing viết phần mềm cho các công ty về lĩnh vực của tôi vì bản thôi tôi hiểu rõ về lĩnh vực này nhất và dễ dàng viết được nó, thu nhập của tôi gần như tăng gấp 3 hay 4 lần từ đó.</p>
+                    
+                    <p><em>Nếu anh em muốn đột phá công việc, anh em có thể tham khảo chương trình tại link này, sẽ không làm anh em thất vọng</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Quà Tặng Section -->
+    <section class="course-content">
+        <div class="container">
+            <h2 class="section-title">Quà Tặng Dành Cho Bạn Nếu Đăng Ký Ngay Hôm Nay</h2>
+            
+            <div class="content-section">
+                <ul class="techniques-list">
+                    <li><strong>✔ Quà tặng 1:</strong> Ebook 12 Nguyên tắc học lập trình cho dân tay ngang: Làm thế nào tôi có thể học Python để áp dụng công việc chỉ mất một tháng bắt đầu từ Zero.</li>
+                    <li><strong>✔ Quà tặng 2:</strong> Hướng dẫn viết dự án theo ý tưởng công việc của bạn (<em>Group Zalo và Zoom</em>)</li>
+                    <li><strong>✔ Quà tặng 3:</strong> Được học và hỗ trợ trọn đời 1:1 (<em>Zalo và Zoom</em>), bạn có thể hỏi các vấn đề ngoài kiến thức bài giảng và hỗ trợ nhiệt tình.</li>
+                    <li><strong>✔ ĐƯỢC CẤP CHỨNG CHỈ SAU KHI HOÀN THÀNH KHÓA HỌC</strong></li>
+                </ul>
+                
+                <div class="highlight-box" style="margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #ffe5e5 0%, #ffcccc 100%); border-left: 5px solid #e74c3c; border-radius: 10px;">
+                    <h3 style="color: #c0392b; margin-bottom: 15px;">🔥 KHÓA HỌC CÓ HƯỚNG DẪN ANH EM SỬ DỤNG CURSOR AI ĐỂ ÁP DỤNG VÀO HỌC LẬP TRÌNH</h3>
+                    <p style="font-size: 17px; line-height: 1.8; color: #c0392b; margin: 0;">Giúp anh em tăng hiệu quả học tập hay công việc gấp 3 hay 4 lần (Cách sử dụng Cursor AI mà ai cũng có thể làm được)</p>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 25px; padding: 25px; background: linear-gradient(135deg, rgb(225, 247, 250) 0%, white 100%); border-left: 5px solid #00786a; border-radius: 10px;">
+                    <h3 style="color: #00786a; margin-bottom: 15px;">Chưa Có Kỹ Năng Tự Học Thì Khóa Học Này Sẽ Giúp Bạn Có Kỹ Năng Đó, Chỉ Cần Bạn Cố Gắng</h3>
+                    <p style="font-size: 17px; line-height: 1.8; color: #333; margin: 0;">Thời đại công nghệ, đừng chờ đợi "thằng" nào hướng dẫn hay dạy bạn, hãy dùng các kỹ năng "tự bơi" trong khóa học để phát triển</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Description Section -->
+    <section class="course-description-section">
+        <div class="container">
+            <div class="pricing-description">
+                <p>"Khóa học này không phải là lớp dạy làm giàu hay truyền cảm hứng, nên anh em đừng hỏi tại sao không miễn phí. Tôi không có tài hùng biện để thuyết phục bạn 'tự nguyện' bỏ tiền vào túi tôi. Đây là một <strong>khóa học chuyên môn thực tế</strong>, đi thẳng vào vấn đề mà không hứa hẹn những viễn cảnh hào nhoáng để bạn đăng ký thêm các khóa học khác.</p>
+                <p>Mà nhiều khi bỏ một chút tài chính, anh em sẽ có động lực học tập nghiêm túc hơn – học để <strong>đáng đồng tiền bát gạo</strong>, học để ra <strong>kết quả thực tế</strong>. Còn nếu bạn muốn học miễn phí, tôi sẵn sàng: hãy ghé kênh YouTube của tôi, nơi tôi chia sẻ nhiều kiến thức Python hoàn toàn miễn phí.</p>
+                <p><strong>Yên tâm không có khóa chuyên sâu nữa đâu</strong></p>
+                
+                <div class="warning-box" style="margin-top: 30px; padding: 20px; background: #fff3cd; border-left: 5px solid #ffc107; border-radius: 8px;">
+                    <p style="margin: 0; font-size: 17px; line-height: 1.8; color: #856404;"><strong>⚠️ Lưu ý quan trọng:</strong> Nếu anh em đã xác định đăng ký thì nhập thông tin rồi chuyển khoản để vào học luôn. Đừng vì tiếc một khoản đầu tư, sợ bị lừa rồi trì hoãn ngày này qua ngày khác, cuối cùng không học được gì cả. Có chút tài chính, anh em cũng có động lực cày hơn, học cho ra kết quả, học cho đáng đồng tiền mình bỏ ra. <em>Nếu sợ bên mình lừa đảo, vui lòng kéo xuống bên dưới để xem kênh YouTube (có lộ mặt), thông tin công ty rồi hãy chuyển khoản.</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="register">
+        <div class="container">
+            <div class="pricing-card">
+                <form class="registration-form" id="registrationForm">
+                    <h2 class="pricing-title-before-form">Học phí: 1450K cho 5 anh em nhanh nhất hôm nay</h2>
+                    <p class="pricing-note">(phí sẽ tăng dần từng ngày)</p>
+                    
+                    <!-- Chính sách hoàn tiền -->
+                    <div style="padding: 15px; background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); border-left: 5px solid #28a745; border-radius: 10px; margin-bottom: 25px; text-align: center;">
+                        <p style="color: #155724; margin-bottom: 8px; font-size: 16px; font-weight: 600;">✅ Hoàn tiền trong vòng 07 ngày (không hỏi lý do)</p>
+                        <p style="font-size: 14px; line-height: 1.5; color: #333; margin: 0;">Nếu phát hiện chém gió không như quảng cáo chấp nhận phạt gấp 02 lần học phí</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Họ Và Tên</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nhập Số Điện Thoại *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Đăng Ký Ngay</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h2>Tự Động Hóa Cuộc Sống Với AI</h2>
+            <h3 class="footer-motto">Cứ ứng dụng vào công việc đi,<br>vướng thì gỡ</h3>
+            <div class="contact-info">
+                <p><strong>Công Ty TNHH Anh Lập Trình</strong></p>
+                <p><strong>Mã số thuế:</strong> 0318822989</p>
+                <p><strong>Điện thoại:</strong> 0914972102</p>
+                <p><strong>Email:</strong> contact@anhlaptrinh.vn</p>
+                <p><strong>Địa chỉ:</strong> Lầu 5: Toà Nhà ST. MORITZ, 1014 Phạm Văn Đồng, P, Thủ Đức, Thành phố Hồ Chí Minh</p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <h4>Kết nối với chúng tôi</h4>
+                <div class="social-icons-row">
+                    <a href="https://www.youtube.com/@pyanpython" target="_blank" rel="noopener noreferrer" class="social-link youtube-link">
+                        <span class="social-icon"><i class="fab fa-youtube"></i></span>
+                        <span class="social-text">Anh Lập Trình</span>
+                    </a>
+                    <a href="https://www.facebook.com/tudonghoanocode/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình</span>
+                    </a>
+                    <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình - Trợ Lý A.I</span>
+                    </a>
+                    <a href="https://www.facebook.com/PythonVBARevitExcelAutocad/" target="_blank" rel="noopener noreferrer" class="social-link facebook-link">
+                        <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                        <span class="social-text">Anh Lập Trình - Python</span>
+                    </a>
+                </div>
+            </div>
+            
+            <p class="copyright">&copy; 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js?v=20251223_140342"></script>
+    <!-- Email Config -->
+    <script src="email-config.js?v=20251223_140342"></script>
+    <!-- n8n Webhook Config -->
+    <script src="n8n-config.js?v=20251223_140342"></script>
+    <script src="script.js?v=20251223_140342"></script>
+</body>
+</html>
+
