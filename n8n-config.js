@@ -4,7 +4,7 @@
 const N8N_CONFIG = {
     // Webhook URL từ n8n workflow "01RegistrationNotification"
     // Lấy từ: n8n → Workflow → Node "Webhook - Nhận Đăng Ký" → Production URL
-    WEBHOOK_URL: 'https://vpsn8n.anhlaptrinh.vn/webhook/dangkypythontudonghoacv1',
+    WEBHOOK_URL: 'https://vpsn8n.anhlaptrinh.vn/webhook/registration-notification11111mmmmm11',
     
     // Bật/tắt thông báo Zalo (true = bật, false = tắt)
     ZALO_NOTIFICATION_ENABLED: true,
